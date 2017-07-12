@@ -15,6 +15,6 @@ for js in json_files:
         		if k=='query_text':
         			# print(v)
         			with open('searchTerms', 'a') as f:
-    					f.write(v.encode('utf-8') + '\n')
+    					f.write(v.encode('utf-8') + ' ')
 
 
